@@ -8,8 +8,10 @@ body {
 }
 
 .example {
-    font-size: 22px;
+    font-size: 28px;
     margin-left: 40px;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
 }
 //EXAMPLE 1//
 .activate-box {
@@ -220,10 +222,75 @@ body {
     margin-top: -40px;
     color: black;
     margin-left: 40px;
+    margin-bottom: 60px;
 
     @include transition(all ease 1.5s) 
 }
+//EXAMPLE 8//
+.click-to-hide {
+    border: 1px solid black;
+    font-size: 12px;
+    width: 150px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+    text-align: center;
+}
 
+.text-to-be-hidden {
+    font-size: 28px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+ }   
+//EXAMPLE 9//
+.focus {
+    font-size: 28px;
+    border: 1px solid black;
+    width: 320px;
+    height: 30px;
+    line-height: 30px; 
+    margin-left: 440px;
+    margin-top: 40px; 
+    text-align: center;  
+}
+
+.choose {
+    font-size: 18px;
+    border: 1px solid black;
+    width: 180px;
+    height: 30px;
+    line-height: 30px; 
+    margin-left: 40px;
+    margin-top: 40px; 
+    text-align: center;  
+}
+
+.highlight {
+    height: 40px;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.highlight.on {
+    height: 40px;
+    width: 400px;
+    margin-left: 60px;
+    background-color: yellow;
+}
+//EXAMPLE 10//
+.click-start {
+    margin-top: 40px;
+    margin-left: 60px;
+    border: 1px solid black; 
+    width: 80px;   
+}
 
 
 

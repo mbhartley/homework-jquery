@@ -35,3 +35,30 @@ $('.enter-email').keydown(function(){
 $('.enter-email-2').keydown(function(){
 	$('.congrats').addClass('reveal');
 })
+//EXAMPLE 8//
+$('.click-to-hide').click(function(){
+	$('.text-to-be-hidden').hide(100);
+})
+//EXAMPLE 9//
+$('.choose').click(function(){
+	$('.highlight').addClass('on');
+})
+//EXAMPLE 10//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
