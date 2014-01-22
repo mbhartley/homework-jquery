@@ -15,3 +15,15 @@ $('.click-hide').click(function(){
 $('.click-to-choose').click(function(){
 	$('.truck-pic').addClass('active');
 })
+//EXAMPLE 5//
+$('.hide-reveal-1').click(function(){
+	$('.bw-boys').toggle(600)
+})
+
+$('.hide-reveal-2').click(function(){
+	$('.e-glasses').toggle(600)
+})
+
+$('.hide-reveal-3').click(function(){
+	$('.shades').toggle(600)
+})

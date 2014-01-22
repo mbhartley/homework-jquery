@@ -115,12 +115,68 @@ body {
     display: block;
     opacity: 1;
 }
+//EXAMPLE 5//
+.instructions {
+    margin-left: 40px;
+}
+
+.images-album {
+    height: 250px;
+    position:relative;
+}
+
+.bw-boys {
+    width: 225px;
+    height: 225px;
+    margin-top: 70px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.e-glasses {
+    width: 225px;
+    height: 225px;
+    margin-top: 70px;
+    margin-left: 285px;
+    position: absolute;
+}
 
 
+.shades {
+    width: 225px;
+    height: 225px;
+    margin-top: 70px;
+    margin-left: 550px;
+    position: absolute;
+}
 
+.hide-reveal-bar {
+    width: 100%;
+    height: 36px;    
+}
 
+.hide-reveal-1, .hide-reveal-2, .hide-reveal-3 {
+    font-size: 22px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 30px;
+}
 
+.hide-reveal-1 {
+    margin-left: 80px;
+}
 
+.hide-reveal-2 {
+    margin-left: 132px;
+}
+
+.hide-reveal-3 {
+    margin-left: 138px;
+}
+
+.nice-work {
+    margin-left: 50px;
+}
 
 
 
