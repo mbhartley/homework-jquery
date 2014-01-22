@@ -44,6 +44,16 @@ $('.choose').click(function(){
 	$('.highlight').addClass('on');
 })
 //EXAMPLE 10//
+$('.click-ex10').click(function(){
+	$('.circle-ex10').addClass('red-ex10')
+})
+//EXAMPLE 11//
+$('.click-ex11').click(function(){
+	$('.circle-red').addClass('red');
+	$('.circle-yellow').addClass('yellow');
+	$('.circle-green').addClass('green');
+})
+//EXAMPLE 12//
 
 
 
