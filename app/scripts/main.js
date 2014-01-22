@@ -27,3 +27,11 @@ $('.hide-reveal-2').click(function(){
 $('.hide-reveal-3').click(function(){
 	$('.shades').toggle(600)
 })
+//EXAMPLE 6//
+$('.enter-email').keydown(function(){
+	$('.enter-email').addClass('highlight');
+})
+//EXAMPLE 7//
+$('.enter-email-2').keydown(function(){
+	$('.congrats').addClass('reveal');
+})

@@ -128,7 +128,7 @@ body {
 .bw-boys {
     width: 225px;
     height: 225px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 30px;
     position: absolute;
 }
@@ -136,7 +136,7 @@ body {
 .e-glasses {
     width: 225px;
     height: 225px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 285px;
     position: absolute;
 }
@@ -145,7 +145,7 @@ body {
 .shades {
     width: 225px;
     height: 225px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 550px;
     position: absolute;
 }
@@ -159,7 +159,8 @@ body {
     font-size: 22px;
     display: inline-block;
     border: 1px solid black;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 .hide-reveal-1 {
@@ -173,12 +174,55 @@ body {
 .hide-reveal-3 {
     margin-left: 138px;
 }
-
-.nice-work {
-    margin-left: 50px;
+//EXAMPLE 6//
+.instructions {
+    margin-top: 50px;
 }
 
+.enter-email {
+    height: 60px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 22px;
+}
 
+.enter-email.highlight {
+    height: 60px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 22px; 
+    background-color: rgb(172, 213, 239);
+}
+//EXAMPLE 7//
+.enter-email-2 {
+    height: 60px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 22px;
+}
+
+.congrats {
+    font-size: 1px;
+    margin-top: -40px;
+    color: white;
+}
+
+.congrats.reveal {
+    font-size: 16px;
+    margin-top: -40px;
+    color: black;
+    margin-left: 40px;
+
+    @include transition(all ease 1.5s) 
+}
 
 
 
