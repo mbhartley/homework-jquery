@@ -54,6 +54,10 @@ $('.click-ex11').click(function(){
 	$('.circle-green').addClass('green');
 })
 //EXAMPLE 12//
+$('.crush-initiate').click(function(){
+	$('.box-12').addClass('crusher');
+	$('.circle-12').addClass('crushed');
+})
 
 
 
