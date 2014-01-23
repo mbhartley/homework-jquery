@@ -58,8 +58,23 @@ $('.crush-initiate').click(function(){
 	$('.box-12').addClass('crusher');
 	$('.circle-12').addClass('crushed');
 })
-
-
+//EXAMPLE 13//
+$('.collapse-click').click(function(){
+	$('.building').addClass('down');
+})
+//EXAMPLE 14//
+$('.hover-orange').hover(function(){
+	$('.red-square').addClass('red-move');
+	$('.yellow-square').addClass('yellow-move');
+})
+//EXAMPLE 15//
+    $('.arrow-right').click(function() {
+    $('.box-moves').animate({'left': '+=50px'}, 'slow' );
+})
+ 
+$('.arrow-left').click(function(){
+  $('.box-moves').animate({ 'left': '-=50px' }, 'slow' );
+})
 
 
 

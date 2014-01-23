@@ -378,7 +378,7 @@ body {
     height: 100px;
     width: 100px;
     border: 3px solid black;
-    position: absolute;
+    margin-bottom: 60px;
 
 }
 .circle-12 {
@@ -400,6 +400,131 @@ body {
     transition-delay: .3s;
     transition: ease;
 }
+//EXAMPLE 13//
+.collapse-click {
+    font-size: 28px;
+    border: 1px solid black;
+    margin-left: 40px;
+    width: 200px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.wrapper {
+    height: 420px;
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.building {
+    height: 400px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+}
+
+.left-half {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
+
+.right-half {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+
+.down {
+    height: 0;
+
+}
+
+.up {
+    height: 400px;
+}
+//EXAMPLE 14//
+.hover-orange {
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.orange-container {
+    width: 960px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.red-square {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+.yellow-square {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.red-move {
+    margin-right: -152px;
+    transition: ease;
+}
+
+.yellow-move {
+    margin-left: -152px;
+    transition: ease;
+    background: orange;
+}
+//EXAMPLE 15//
+.controls {
+    height: 40px;
+    width: 80px;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.arrow-left {
+    display: inline-block;
+    background-color: yellow;
+}
+
+.arrow-right {
+    display: inline-block;
+    background-color: yellow;
+}
+.box-moves {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: green;
+    position: absolute;
+}
+
+
+
+
+
+
+
 
 
 
