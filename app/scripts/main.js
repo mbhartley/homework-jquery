@@ -70,11 +70,23 @@ $('.hover-orange').hover(function(){
 //EXAMPLE 15//
     $('.arrow-right').click(function() {
     $('.box-moves').animate({'left': '+=50px'}, 'slow' );
-})
- 
+}) 
 $('.arrow-left').click(function(){
   $('.box-moves').animate({ 'left': '-=50px' }, 'slow' );
 })
+//EXAMPLE 16//
+$('.parent16').hover(function(){
+	$('.parent16').addClass('tilt');
+	$('.child16').addClass('roll')
+})
+//EXAMPLE 17//
+$('.start').click(function(){
+	$('.count3').addClass('count-down3');
+	$('.count2').addClass('count-down2');
+	$('.count1').addClass('count-down1');
+	$('.rocket').addClass('launch');
+})
+
 
 
 
