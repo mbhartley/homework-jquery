@@ -94,9 +94,12 @@ $('.do-this').click(function() {
 	$('.two-box').addClass('two-change');
 	$('.three-box').addClass('three-change');	
 })
-
-
-
+$('.enter-firstName').focus(function(){
+	$(this).css('background-color', '#b5aea3');
+})
+$('.enter-lastName').focus(function(){
+	$(this).css('background-color', '#b5aea3');
+})
 
 
 

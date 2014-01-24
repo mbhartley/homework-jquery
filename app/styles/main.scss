@@ -629,6 +629,7 @@ body {
     width: 400px;
     border: 1px solid gray;
     background-color: blue;
+
 }
 .spinner {
     width: 50px;
@@ -680,6 +681,23 @@ body {
     background-color: red;
     margin-left: 200px;
     transition: ease 2s;
+}
+//EXAMPLE 19//
+.example {
+    margin-top: 40px;
+}
+.enter-firstName {
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 28px;
+    box-shadow: 2px 2px 2px gray;
+}
+.enter-lastName {
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 28px;
 }
 
     
