@@ -86,6 +86,14 @@ $('.start').click(function(){
 	$('.count1').addClass('count-down1');
 	$('.rocket').addClass('launch');
 })
+//EXAMPLE 18//
+$('.do-this').click(function() {
+	$('.box-holder').addClass('lift');
+	$('.spinner').addClass('spin');
+	$('.one-box').addClass('one-change');
+	$('.two-box').addClass('two-change');
+	$('.three-box').addClass('three-change');	
+})
 
 
 

@@ -567,6 +567,8 @@ body {
     height: 400px;
     background-color: blue;
     position: relative;
+    margin-bottom: 60px;
+    margin-left: 40px;
 }
 .ground {
     width: 600px;
@@ -613,9 +615,74 @@ body {
     bottom: 2000px;
     transition: ease 12s;
     transition-delay: 3.5s;
+}
+//EXAMPLE 18//
 
+.do-this {
+    margin-left: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.box-holder {
+    margin-left: 40px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: blue;
+}
+.spinner {
+    width: 50px;
+    height: 300px;
+    margin-left: 175px;
+    margin-top: 50px;
+}
+.one-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+.two-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 75px;
+}
+.three-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: 75px;
+}
+.lift {
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 50%;
+    margin-left: 200px;
+    transition: ease 2s;
+}
+.spin {
+    transform: rotate(180deg);
+    transition: ease 2s;
+    margin-left: 375px;
+}
+.one-change {
+    background-color: yellow;
+    margin-left: 200px;
+    transition: ease 2s;
+}
+.two-change {
+    margin-left: 200px;
+    transition: ease 2s;
+}
+.three-change{
+    background-color: red;
+    margin-left: 200px;
+    transition: ease 2s;
 }
 
+    
 
 
 
