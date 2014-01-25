@@ -94,13 +94,27 @@ $('.do-this').click(function() {
 	$('.two-box').addClass('two-change');
 	$('.three-box').addClass('three-change');	
 })
+//EXAMPLE 19??
 $('.enter-firstName').focus(function(){
 	$(this).css('background-color', '#b5aea3');
 })
 $('.enter-lastName').focus(function(){
 	$(this).css('background-color', '#b5aea3');
 })
-
+//EXAMPLE 20//
+$('.pea-pod').hover(function(){
+	$(this).addClass('pod-mutate');
+	$('.pea-one').addClass('pea-one-mutate');
+	$('.pea-three').addClass('pea-three-mutate');
+})
+//EXAMPLE 21//
+$('.car').click(function(){
+	$(this).addClass('car-drive');
+	$('.back-wheel').addClass('back-wheel-drive');
+	$('.front-wheel').addClass('front-wheel-drive');
+	$('.brick1').addClass('brick1-move');
+	$('.brick2').addClass('brick2-move');
+})
 
 
 
