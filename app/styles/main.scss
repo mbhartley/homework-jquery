@@ -801,8 +801,7 @@ body {
     margin-top: -800px;
     margin-left: 800px;
     margin-bottom: 800px;
-    transition-delay: 1.3s;
-    
+    transition-delay: 1.3s;    
 }
 .brick2-move {
     margin-bottom: 800px;
@@ -810,11 +809,94 @@ body {
     margin-top: 800px;
     transition-delay: 1.3s;
 }
+//EXAMPLE 22//
+.contain-them {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 280px;
+    height: 80px;
+    position: absolute;
 
-
-
-
-
+}
+.do-this {
+    font-size: 16px;
+}
+.square1, .square2, .square3, .square4 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: black;
+}
+.add-color1 {
+    background-color: blue;
+}
+.add-color2 {
+    background-color: red;
+    transition-delay: .25s;
+}
+.add-color3 {
+    background-color: green;
+    transition-delay: .5s;
+}
+.add-color4 {
+    background-color: yellow;
+    transition-delay: .75s;
+}
+//EXAMPLE 23//
+.example23 {
+    font-size: 28px;
+    margin-left: 40px;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 140px;
+}
+.do-this-spot {
+    margin-left: 40px;
+    border: 1px solid black;
+    width: 88px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contain-spots {
+    margin-left: 40px;
+    background-color: orange;
+    width: 960px;
+}
+.spot1, .spot2, .spot3, .spot4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    line-height: 80px;
+    text-align: center;
+}
+.winner-hidden {
+    font-size: 0px;
+    margin-left: 770px;
+    margin-top: -220px;
+}
+.race-spot1 {
+    margin-left: 880px;
+    transition: ease 1.9s;
+}
+.race-spot2 {
+    margin-left: 880px;
+    transition: ease 1.5s;
+}
+.race-spot3 {
+    margin-left: 880px;
+    transition: ease 1.7s;
+}
+.race-spot4 {
+    margin-left: 880px;
+    transition: ease 2s;
+}
+.winner-reveal {
+    font-size: 30px;
+    transition-delay: 2s;
+}
 
 
 

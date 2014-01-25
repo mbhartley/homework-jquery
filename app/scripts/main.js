@@ -115,9 +115,21 @@ $('.car').click(function(){
 	$('.brick1').addClass('brick1-move');
 	$('.brick2').addClass('brick2-move');
 })
-
-
-
+//EXAMPLE 22//
+	$('.contain-them').hover(function(){
+		$('.square1').addClass('add-color1');
+		$('.square2').addClass('add-color2');
+		$('.square3').addClass('add-color3');
+		$('.square4').addClass('add-color4');
+	})
+//EXAMPLE 23//
+	$('.do-this-spot').click(function(){
+		$('.spot1').addClass('race-spot1');
+		$('.spot2').addClass('race-spot2');
+		$('.spot3').addClass('race-spot3');
+		$('.spot4').addClass('race-spot4');
+		$('.winner-hidden').addClass('winner-reveal');
+	})
 
 
 
