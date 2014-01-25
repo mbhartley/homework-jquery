@@ -141,6 +141,21 @@ $('.car').click(function(){
 	$('.click25').click(function(){
 		$('.contain-them25').addClass('spinner25');		
 	})
+//EXAMPLE 26//
+	$('.click26').click(function(){
+		$('.contain-them26').addClass('spinner26');
+		$('.square1-26').addClass('red');
+		$('.square2-26').addClass('yellow');
+		$('.square3-26').addClass('green');
+		$('.square4-26').addClass('blue');
+	})
+//EXAMPLE 27//
+	$('.do-this27').click(function() {
+		$('.square1-27').addClass('unveil1');
+		$('.square2-27').addClass('unveil2');
+		$('.square3-27').addClass('unveil3');
+		$('.square4-27').addClass('unveil4');
+	})
 
 
 
