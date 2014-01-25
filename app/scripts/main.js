@@ -130,6 +130,17 @@ $('.car').click(function(){
 		$('.spot4').addClass('race-spot4');
 		$('.winner-hidden').addClass('winner-reveal');
 	})
+//EXAMPLE 24//
+	$('.do-this24').click(function(){
+		$('.square1-24').addClass('expand');
+		$('.square2-24').addClass('expand');
+		$('.square3-24').addClass('expand');
+		$('.square4-24').addClass('expand');
+	})
+//EXAMPLE 25//
+	$('.click25').click(function(){
+		$('.contain-them25').addClass('spinner25');		
+	})
 
 
 

@@ -709,7 +709,7 @@ body {
     background-color: #9edb8a;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    box-shadow: 1px 1px 1px #238c23;
+    box-shadow: 2px 2px 2px #238c23;
 }
 .pea-one, .pea-two, .pea-three {
     height: 80px;
@@ -848,7 +848,7 @@ body {
     margin-left: 40px;
     color: gray;
     text-shadow: 1px 1px 1px black;
-    margin-top: 140px;
+    margin-top: 180px;
 }
 .do-this-spot {
     margin-left: 40px;
@@ -861,6 +861,7 @@ body {
     margin-left: 40px;
     background-color: orange;
     width: 960px;
+    margin-bottom: 240px;
 }
 .spot1, .spot2, .spot3, .spot4 {
     width: 80px;
@@ -875,7 +876,7 @@ body {
 .winner-hidden {
     font-size: 0px;
     margin-left: 770px;
-    margin-top: -220px;
+    margin-top: -460px;
 }
 .race-spot1 {
     margin-left: 880px;
@@ -897,6 +898,79 @@ body {
     font-size: 30px;
     transition-delay: 2s;
 }
+//EXAMPLE 24//
+.example24 {
+    font-size: 28px;
+    margin-left: 40px;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 280px;
+}
+.do-this24 {
+    margin-left: 40px;
+    border: 1px solid black;
+    height: 40px;
+    width: 160px;
+    line-height: 40px;
+    text-align: center;
+}
+.contain-them24 {
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+.square1-24, .square2-24, .square3-24, .square4-24 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 500px;
+    position: absolute;
+}    
+.expand {
+    position: relative;
+    background-color: blue;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+}
+//EXAMPLE 25//
+.click25 {
+    margin-left: 40px;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.contain-them25 {
+    margin-top: 40px;
+    margin-bottom: 180px;
+    margin-left: 400px;
+    width: 80px;
+    height: 320px;
+    position: relative;
+}
+.square1-25, .square2-25, .square3-25, .square4-25 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 18px;    
+}
+.spinner25 {
+    transition: 5s;
+    transform: rotate(3600deg);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
